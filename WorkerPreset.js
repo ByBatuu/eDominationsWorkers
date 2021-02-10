@@ -1,15 +1,14 @@
-// ==UserScript==
+// ==OpenUserJS==
 // @name         WorkerPreset
-// @namespace    http://tampermonkey.net/
 // @version      1.01
 // @description  Fast and Easy way to set your preset
 // @author       ByBatu
+// @copyright       2021, ByBatu (https://edominationstools.com)
 // @match        https://www.edominations.com/*/companies
 // @include      https://www.edominations.com/*/companies
-// @grant   GM_setValue
-// @grant   GM_getValue
-// @grant       GM_xmlhttpRequest
-// ==/UserScript==
+// @grant           none
+// @license         MIT
+// ==/OpenUserJS==
 
 
 $("#container-content > div.row.vs222 > div > div > div > div.panel-body.vs502.panel-full > h5.vs523").prepend('<a class="btn btn-info btn-sm" id="load" style="float: right;text-transform: unset;font-size: 12px;" title="Load your preset" ><i class="fa fa-refresh" style="color:white;" aria-hidden="true"></a></i> <a class="btn btn-info btn-sm" id="save" style="float: right;text-transform: unset;font-size: 12px;" title="Save your preset" ><i class="fa fa-floppy-o" style="color:white;" aria-hidden="true"></a></i> ');
